@@ -6,7 +6,7 @@
 /*   By: abaldelo <abaldelo@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 16:29:51 by abaldelo          #+#    #+#             */
-/*   Updated: 2024/10/27 22:50:33 by abaldelo         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:42:33 by abaldelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static int	args_format(const char format, va_list args)
 	else if (format == 'd' || format == 'i')
 		len += ft_putnbr(va_arg(args, int));
 	else if (format == 'u')
-		len += ft_putunbr(va_arg(args, unsigned));
+		len += ft_putunbr(va_arg(args, unsigned int));
 	else if (format == 'x' || format == 'X')
 		len += ft_puthexnbr(va_arg(args, unsigned int), format);
 	else if (format == 'p')
