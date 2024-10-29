@@ -6,7 +6,7 @@
 #    By: abaldelo <abaldelo@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/27 16:21:08 by abaldelo          #+#    #+#              #
-#    Updated: 2024/10/27 22:56:39 by abaldelo         ###   ########.fr        #
+#    Updated: 2024/10/29 14:15:38 by abaldelo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ clean:
 	$(RM) $(OBJ)
 
 fclean: clean
-	$(RM) $(NAME) $(OBJ)
+	$(RM) $(NAME)
 
 re: fclean all
 

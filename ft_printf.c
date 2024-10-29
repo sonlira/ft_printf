@@ -6,7 +6,7 @@
 /*   By: abaldelo <abaldelo@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 16:29:51 by abaldelo          #+#    #+#             */
-/*   Updated: 2024/10/28 16:42:33 by abaldelo         ###   ########.fr       */
+/*   Updated: 2024/10/29 14:14:32 by abaldelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int	ft_printf(char const *str, ...)
 			if (str[i])
 				len += args_format(str[i], args);
 			else
-				len += ft_putchar('%');
+				break ;
 		}
 		i++;
 	}
